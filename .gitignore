@@ -1,0 +1,12 @@
+# Material da disciplina: vem de github.com/LucioCampos/VisaoComputacional e /Codigos (re-clonar quando precisar)
+aulas/
+codigos/
+
+# Dados brutos (vídeos da disciplina) e derivados: só os .gitkeep entram
+projetos/*/data/raw/*
+projetos/*/data/processed/*
+!projetos/*/data/*/.gitkeep
+
+.claude/
+.ipynb_checkpoints/
+__pycache__/
