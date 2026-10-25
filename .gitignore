@@ -10,3 +10,6 @@ projetos/*/data/processed/*
 .claude/
 .ipynb_checkpoints/
 __pycache__/
+
+# Pacote de entrega gerado
+entrega/
