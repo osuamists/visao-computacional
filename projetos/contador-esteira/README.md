@@ -53,9 +53,9 @@ contador-esteira/
 
 ## Status
 
-- **Notebook (`notebook/contador_esteira.ipynb`):** cobre as etapas 1 a 5 do plano (leitura, MOG2/KNN, limiar + morfologia, contornos com filtro de área, contagem por linha virtual), mais conferência visual, sensibilidade a parâmetros e imagem espaço-tempo da linha.
-- **Falta:** contagem manual dos dois vídeos (etapa 0, usar a seção 12 do notebook como apoio), erro absoluto e percentual (etapa 6) e análise de falhas e conclusão (etapa 7).
-- **Decisão pendente:** no `test_video.mp4` (trecho de 8 s repetido 3 vezes), contar os 24 s ou um trecho só.
+- **Notebook (`notebook/contador_esteira.ipynb`):** cobre todas as etapas do plano (leitura, MOG2/KNN, limiar + morfologia, contornos com filtro de área, contagem por linha virtual), mais conferência visual, sensibilidade a parâmetros e imagem espaço-tempo da linha.
+- **Feito no notebook:** contagem manual (13 leitões e 40 maçãs, vídeo inteiro), erro absoluto e percentual (seção 13), análise de falhas (seções 14 a 16) e conclusão com referências (seção 17).
+- **Falta:** compartilhar o link do Colab com o professor e conferir a política da disciplina sobre ajuda de IA no texto de análise.
 - **Viés:** a calibração (linha, zona, áreas, ajuste do subtrator) usou os mesmos dois vídeos da avaliação, então o erro da etapa 6 é otimista. Dizer isso na conclusão.
 
 ## Commits sugeridos
